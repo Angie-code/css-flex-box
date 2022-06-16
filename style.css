@@ -15,8 +15,13 @@ main{
     align-items: center;
     height: 100vh;
 }
+div{
+    text-align: justify;
+}
 h1{
     font-family: 'Big Shoulders Display', cursive;
+    margin: 15px;
+
 }
 
 p, button{
@@ -24,20 +29,60 @@ p, button{
 }
 p{
     color: hsla(0, 0%, 100%, 0.75);
+    margin: 15px;
+    line-height: 25px;
+    
 }
 h1, button{
     color: hsl(0, 0%, 95%)
 }
 div{
     padding: 2rem;
+    text-align: left;
     
 }
-.sedans-box{
+#sedans-box{
     background-color: hsl(31, 77%, 52%);
+    
 }
-.suv-box{
+#sedans-button{
+    background-color: hsl(31, 77%, 52%);
+    margin: 20px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 35px;
+    padding: 15px;
+    
+    
+}
+#suv-box{
     background-color: hsl(184, 100%, 22%);
 }
-.luxury-box{
+#suvs-button{
+    background-color: hsl(184, 100%, 22%);
+    margin: 20px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 35px;
+    padding: 15px;
+}
+#luxury-box{
     background-color: hsl(179, 100%, 13%);
+}
+#luxury-button{
+    background-color: hsl(179, 100%, 13%);
+    margin: 20px;
+    border-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 35px;
+    padding: 15px;
 }
