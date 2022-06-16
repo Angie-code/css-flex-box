@@ -1,3 +1,13 @@
+@media only screen and (max-width: 375px) {
+    /* For mobile phones: */
+    [body] {
+      width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    body {width: 1440px}
+}
 *{
     margin: 0;
     padding: 0;
