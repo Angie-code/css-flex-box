@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p, button{
+    font-family: 'Lexend Deca', sans-serif;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+h1, button{
+    color: hsl(0, 0%, 95%)
+}
+div{
+    padding: 2rem;
+    
+}
+.sedans-box{
+    background-color: hsl(31, 77%, 52%);
+}
+.suv-box{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury-box{
+    background-color: hsl(179, 100%, 13%);
+}
